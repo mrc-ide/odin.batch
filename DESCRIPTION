@@ -1,0 +1,24 @@
+Package: odin.batch
+Title: Batch Run Odin Tasks
+Version: 0.1.0
+Authors@R:
+    c(person(given = "Rich",
+             family = "FitzJohn",
+             role = c("aut", "cre"),
+             email = "rich.fitzjohn@gmail.com"),
+      person("Imperial College of Science, Technology and Medicine",
+             role = "cph"))
+Author: Rich FitzJohn
+Maintainer: Rich FitzJohn <rich.fitzjohn@gmail.com>
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Language: en-GB
+URL: https://github.com/mrc-ide/odin.batch
+BugReports: https://github.com/mrc-ide/odin.batch/issues
+Imports:
+  dde (>= 1.1.0),
+  odin (>= 1.0.0)
+Suggests:
+    testthat
